@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500;700&family=Manrope:wght@400;800&display=swap");
+
+
+body {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #31353F;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "DM Sans", sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 71rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+
+@import './navbar';
+
+@import './media';

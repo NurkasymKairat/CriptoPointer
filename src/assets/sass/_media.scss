@@ -1,0 +1,41 @@
+@media (max-width: 1140px) {
+}
+
+@media (max-width: 991px) {
+  .header {
+    &_wrapper {
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+    .header {
+        &_wrapper {
+            justify-content: center;
+          }
+        &_logo {
+            font-size: 1.5rem;
+        }
+        &_input {
+            input {
+                width: 180px;
+                font-size: 12px;
+            }
+
+            button {
+                padding: 10px;
+            }
+        }
+      }
+
+      .coin {
+        &_wrapper {
+          justify-content: center;
+        }
+      }
+}
+
+@media (max-width: 540px) {
+}
