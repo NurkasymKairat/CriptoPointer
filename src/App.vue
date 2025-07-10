@@ -32,8 +32,8 @@
   <GraphApp
     @removeNull="onRemovedNull"
     :names="selectedTicker"
-    :graphs="normalizedGraph"
-  ></GraphApp>
+    :graphs="normalizedGraph">
+    </GraphApp>
 </template>
 <script>
 import CoinsApp from "./components/CoinsApp.vue";
